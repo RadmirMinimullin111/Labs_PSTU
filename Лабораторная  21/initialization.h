@@ -4,27 +4,27 @@ using namespace std;
 
 class users_class{
 	public: 
-		int first;				//Первая переменная
-		int second;				//Вторая переменна
+		int first;				//РџРµСЂРІР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ
+		int second;				//Р’С‚РѕСЂР°СЏ РїРµСЂРµРјРµРЅРЅР°
 	
-	users_class(){		    	//Конструктор без параметров
+	users_class(){		    	//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ
 		first = 1;
 		second = 2;
 	}
 	
-	parametr(int first, int second){    //Конструктор с параметрами
+	parametr(int first, int second){    //РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
 		int new_first = first;
 		int new_second = second;
 	}
 	
-	kopir(users_class& b){			//Конструктор копирования
+	kopir(users_class& b){			//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 		int new_first = b.first;
 		int new_second = b.second;
 	}
 	
 
-	void change(){									//Инициализация метода для изменения полей
-		cout << "Введите новые значения first и second: ";
+	void change(){									//РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РјРµС‚РѕРґР° РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РїРѕР»РµР№
+		cout << "Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ first Рё second: ";
 		cin >> first >> second;
 	}
 	
@@ -33,14 +33,14 @@ class users_class{
 		cout << "second: " << second << endl;
 	}
 	
-	int composition(int F, int S){					//Произведения двух чисел
+	int composition(int F, int S){					//РџСЂРѕРёР·РІРµРґРµРЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
 		return F*S;
 	}
 	
-	double composition(double F, double S){			//Перегрузка операции умножения
+	double composition(double F, double S){			//РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё СѓРјРЅРѕР¶РµРЅРёСЏ
 		return F*S;
 	}
 	
 	
-	~users_class(){};								//Деструктор класса
+	~users_class(){};								//Р”РµСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР°
 };
