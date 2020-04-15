@@ -1,4 +1,4 @@
-//Минимуллин Радмир, лаб. 20, Классы и объекты
+//РњРёРЅРёРјСѓР»Р»РёРЅ Р Р°РґРјРёСЂ, Р»Р°Р±. 20, РљР»Р°СЃСЃС‹ Рё РѕР±СЉРµРєС‚С‹
 #include <iostream>
 #include "methods.cpp"
 using namespace std;
@@ -11,25 +11,25 @@ int main(){
 	RECTANGLE gh;
 	do{
 				
-		cout << "1.Значение переменных first и second" << endl;
-		cout << "2.Вычислить произведение двух чисел" << endl;
-		cout << "3.Вычислить площадь и перимерт прямоугольника с этими же сторонами" << endl;
-		cout << "4.Выход" << endl;
+		cout << "1.Р—РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅС‹С… first Рё second" << endl;
+		cout << "2.Р’С‹С‡РёСЃР»РёС‚СЊ РїСЂРѕРёР·РІРµРґРµРЅРёРµ РґРІСѓС… С‡РёСЃРµР»" << endl;
+		cout << "3.Р’С‹С‡РёСЃР»РёС‚СЊ РїР»РѕС‰Р°РґСЊ Рё РїРµСЂРёРјРµСЂС‚ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° СЃ СЌС‚РёРјРё Р¶Рµ СЃС‚РѕСЂРѕРЅР°РјРё" << endl;
+		cout << "4.Р’С‹С…РѕРґ" << endl;
 	
 		cin >> k;																							
 		switch(k){	
 			case 1:
-				method.change();	//вызываем метод change класса method
+				method.change();	//РІС‹Р·С‹РІР°РµРј РјРµС‚РѕРґ change РєР»Р°СЃСЃР° method
 				break;
 			case 2:
-				proiz = method.composition(method.first, method.second);	//инициализируем переменную как результат возвращения метода composition
-				cout <<"Произведение = "<< proiz << endl;																
+				proiz = method.composition(method.first, method.second);	//РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј РїРµСЂРµРјРµРЅРЅСѓСЋ РєР°Рє СЂРµР·СѓР»СЊС‚Р°С‚ РІРѕР·РІСЂР°С‰РµРЅРёСЏ РјРµС‚РѕРґР° composition
+				cout <<"РџСЂРѕРёР·РІРµРґРµРЅРёРµ = "<< proiz << endl;																
 				break;
 			case 3: 
 					area = gh.Area(method.first, method.second);
 					Per = gh.perimetr(method.first, method.second);
-					cout << "Площадь: " << area << endl;
-					cout << "Периметр: " << Per << endl;
+					cout << "РџР»РѕС‰Р°РґСЊ: " << area << endl;
+					cout << "РџРµСЂРёРјРµС‚СЂ: " << Per << endl;
 					break;
 		}
 	}while(k != 4);
