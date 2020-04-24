@@ -1,3 +1,4 @@
+////Минимуллин Радмир, лаб. 22, Перегрузка операций.
 #include <iostream>
 #include "dot.cpp"
 #include "windows.h"
