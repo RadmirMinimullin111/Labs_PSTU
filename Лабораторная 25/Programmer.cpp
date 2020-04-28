@@ -32,17 +32,16 @@ Programmer& Programmer::operator=(const Programmer& p) {
 }
 void Programmer::Show()
 {
-	cout << "\nÈìÿ : " << name;
-	cout << "\nÂîçðàñò : " << age;
-	cout << "\nÇàðïëàòà(ðóá) : " << money;
-	cout << "\nÄîëæíîñòü : " << pos;
+	cout << "\nÐ˜Ð¼Ñ : " << name;
+	cout << "\nÐ’Ð¾Ð·Ñ€Ð°ÑÑ‚ : " << age;
+	cout << "\nÐ—Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ð°(Ñ€ÑƒÐ±) : " << money;
+	cout << "\nÐ”Ð¾Ð»Ð¶Ð½Ð¾ÑÑ‚ÑŒ : " << pos;
 	cout << "\n";
 }
 void Programmer::Input()
 {
-	cout << "\nÈìÿ : "; cin >> name;
-	cout << "\nÂîçðàñò : "; cin >> age;
-	cout << "\nÇàðïëàòà(ðóá) : "; cin >> money;
-	cout << "\nÄîæíîñòü : "; cin >> pos;
+	cout << "\nÐ˜Ð¼Ñ : "; cin >> name;
+	cout << "\nÐ’Ð¾Ð·Ñ€Ð°ÑÑ‚ : "; cin >> age;
+	cout << "\nÐ—Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ð°(Ñ€ÑƒÐ±) : "; cin >> money;
+	cout << "\nÐ”Ð¾Ð¶Ð½Ð¾ÑÑ‚ÑŒ : "; cin >> pos;
 }
-
