@@ -23,8 +23,8 @@ Vector::Vector(int n)
 void Vector::Add()
 {
     Object* p;
-    cout<<"1.×åëîâåê"<<endl;
-    cout<<"2.Ïðîãðàììèñò"<<endl;
+    cout<<"1.Ð§ÐµÐ»Ð¾Ð²ÐµÐº"<<endl;
+    cout<<"2.ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸ÑÑ‚"<<endl;
     int y; 
     cin >> y;
     if (y == 1)
@@ -54,7 +54,7 @@ void Vector::Add()
 }
 void Vector::Show()
 {
-    if (cur == 0) cout << "Ïóñòîé" << endl;
+    if (cur == 0) cout << "ÐŸÑƒÑÑ‚Ð¾Ð¹" << endl;
     Object** p = beg;
     for(int i=0;i<cur;i++)
     {
@@ -74,7 +74,7 @@ void Vector::Del()
 void Vector::HandleEvent(const TEvent& e)
 {
     int o;
-    cout << "Ââåäèòå íîìåð ýëåìåíòà èìÿ êîòîðîãî íóæíî âûâåñòè: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð¸Ð¼Ñ ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð½ÑƒÐ¶Ð½Ð¾ Ð²Ñ‹Ð²ÐµÑÑ‚Ð¸: ";
     cin >> o;
     if (e.what == evMessage)
     {
@@ -84,4 +84,3 @@ void Vector::HandleEvent(const TEvent& e)
         (*p)->HandleEvent(e);
     }
 }
-
