@@ -3,7 +3,7 @@
 #include "Time.h"
 using namespace std;
 
-//Запись в файл
+//Р—Р°РїРёСЃСЊ РІ С„Р°Р№Р»
 void Time::write_to_file(int* min, int* sec){
 	ofstream fout("Time\\time.txt");
 	char jk = ':';
@@ -15,16 +15,16 @@ void Time::write_to_file(int* min, int* sec){
 			fout << sec[i];
 			fout << ko;
 		}
-		cout << "Данные записаны в файл!" << endl;
+		cout << "Р”Р°РЅРЅС‹Рµ Р·Р°РїРёСЃР°РЅС‹ РІ С„Р°Р№Р»!" << endl;
 	}
 	else{
-		cout << "Ошибка, файл не открылся!" << endl;
+		cout << "РћС€РёР±РєР°, С„Р°Р№Р» РЅРµ РѕС‚РєСЂС‹Р»СЃСЏ!" << endl;
 	}
 	fout << ko;
 	
 }
 
-//Чтение из файла
+//Р§С‚РµРЅРёРµ РёР· С„Р°Р№Р»Р°
 void read_to_file(){
 	ifstream fin("Time\\time.txt");
 	
@@ -35,10 +35,10 @@ void read_to_file(){
 	}
 	else
 	{
-		cout << "Ошибка, файл не открылся!" << endl;
+		cout << "РћС€РёР±РєР°, С„Р°Р№Р» РЅРµ РѕС‚РєСЂС‹Р»СЃСЏ!" << endl;
 	}
 }
-//Удаление (Удаление) интервала
+//РЈРґР°Р»РµРЅРёРµ (РЈРґР°Р»РµРЅРёРµ) РёРЅС‚РµСЂРІР°Р»Р°
 void delete_interval(int* min, int* sec, int delete_min, int delete_sec){
 	for(int i = 0; i < 10; i++){
 		if(min[i] != delete_min | sec[i] != delete_sec){
@@ -47,7 +47,7 @@ void delete_interval(int* min, int* sec, int delete_min, int delete_sec){
 		}
 	}
 }
-//Вычитание интервала
+//Р’С‹С‡РёС‚Р°РЅРёРµ РёРЅС‚РµСЂРІР°Р»Р°
 void decrease_the_interval(int* min, int* sec, int decrease_min, int decrease_sec){
 	for(int i = 0; i < 10; i++){
 		if(min[i] == decrease_min, sec[i] == decrease_sec){
@@ -60,13 +60,13 @@ void decrease_the_interval(int* min, int* sec, int decrease_min, int decrease_se
 				sec[i] = (sec[i]+60)-30;
 			}
 			else{
-				cout << "Не подходит" << endl;
+				cout << "РќРµ РїРѕРґС…РѕРґРёС‚" << endl;
 			}
 		}
 	}
-	cout << "Операция выполнена!" << endl;
+	cout << "РћРїРµСЂР°С†РёСЏ РІС‹РїРѕР»РЅРµРЅР°!" << endl;
 }
-//Добавлние минут
+//Р”РѕР±Р°РІР»РЅРёРµ РјРёРЅСѓС‚
 int* add_k_element_sec(int k, int* sec){
 	int *new_sec = new int[k+10];
 	for(int i = 0; i < k; i++){
@@ -81,7 +81,7 @@ int* add_k_element_sec(int k, int* sec){
 	}
 	return sec;
 }
-//Добавление секунд
+//Р”РѕР±Р°РІР»РµРЅРёРµ СЃРµРєСѓРЅРґ
 int* add_k_element_min(int k, int* min){
 	int *new_min = new int[k+10];
 	for(int i = 0; i < k; i++){
