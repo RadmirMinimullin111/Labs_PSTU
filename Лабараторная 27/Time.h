@@ -7,7 +7,7 @@ class Time{
 	public:
 		int* min;
 		int* sec;
-		//Прототипы функций
+			//РџСЂРѕС‚РѕС‚РёРїС‹ С„СѓРЅРєС†РёР№
 		void write_to_file(int* min, int* sec);													
 		void read_to_file();																		
 		void delete_interval(int* min, int* sec, int delete_min, int delete_sec);					
