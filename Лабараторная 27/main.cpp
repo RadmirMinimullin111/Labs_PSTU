@@ -1,4 +1,4 @@
-//Minimullin Radmir, лаб. 27. Сохранение данных в файле 
+//Minimullin Radmir, Р»Р°Р±. 27. РЎРѕС…СЂР°РЅРµРЅРёРµ РґР°РЅРЅС‹С… РІ С„Р°Р№Р»Рµ 
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -9,19 +9,19 @@ int main(){
 	setlocale(LC_ALL, "rus");
 	Time time;
 	int p, k, delete_minut, delete_secund, decrease_minut, decrease_secund;
-	cout << "Начальные интервалы: " << endl;
+	cout << "РќР°С‡Р°Р»СЊРЅС‹Рµ РёРЅС‚РµСЂРІР°Р»С‹: " << endl;
 	for(int i = 0; i < 10; i++){
 		cout << i+1 << " - " << time.min[i] << ":" << time.sec[i] << endl;
 	}
 	
 	do{
 		
-		cout << "1.Записать данные в файл                                                                                                     " << endl;
-		cout << "2.Вывести на экран содержимое файла                                                                                          " << endl;
-		cout << "3.Удалить все записи не равные заданному значению                                                                            " << endl;
-		cout << "4.Уменьшить все записи с заданным значением на 1 минуту 30 секунд. Значение интервала не должно быть меньше 0 минут 0 секунд." << endl;
-		cout << "5.Добавить K записей в начало файла                                                                                          " << endl;
-		cout << "6.Выход                                                                                                                      " << endl;
+		cout << "1.Р—Р°РїРёСЃР°С‚СЊ РґР°РЅРЅС‹Рµ РІ С„Р°Р№Р»                                                                                                     " << endl;
+		cout << "2.Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ СЃРѕРґРµСЂР¶РёРјРѕРµ С„Р°Р№Р»Р°                                                                                          " << endl;
+		cout << "3.РЈРґР°Р»РёС‚СЊ РІСЃРµ Р·Р°РїРёСЃРё РЅРµ СЂР°РІРЅС‹Рµ Р·Р°РґР°РЅРЅРѕРјСѓ Р·РЅР°С‡РµРЅРёСЋ                                                                            " << endl;
+		cout << "4.РЈРјРµРЅСЊС€РёС‚СЊ РІСЃРµ Р·Р°РїРёСЃРё СЃ Р·Р°РґР°РЅРЅС‹Рј Р·РЅР°С‡РµРЅРёРµРј РЅР° 1 РјРёРЅСѓС‚Сѓ 30 СЃРµРєСѓРЅРґ. Р—РЅР°С‡РµРЅРёРµ РёРЅС‚РµСЂРІР°Р»Р° РЅРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РјРµРЅСЊС€Рµ 0 РјРёРЅСѓС‚ 0 СЃРµРєСѓРЅРґ." << endl;
+		cout << "5.Р”РѕР±Р°РІРёС‚СЊ K Р·Р°РїРёСЃРµР№ РІ РЅР°С‡Р°Р»Рѕ С„Р°Р№Р»Р°                                                                                          " << endl;
+		cout << "6.Р’С‹С…РѕРґ                                                                                                                      " << endl;
 	
 		cin >> p;
 		switch(p){
@@ -30,25 +30,25 @@ int main(){
 			case 2: read_to_file();
 					break;
 			case 3: 
-					cout << "Введите значение: " << endl;
-					cout << "Минуты: "; cin >>  delete_minut;
-					cout << "Секунды: "; cin >> delete_secund;
+					cout << "Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ: " << endl;
+					cout << "РњРёРЅСѓС‚С‹: "; cin >>  delete_minut;
+					cout << "РЎРµРєСѓРЅРґС‹: "; cin >> delete_secund;
 				
 					delete_interval(time.min, time.sec, delete_minut, delete_secund);
 					break;
 			case 4: 
-					cout << "Введите значение: " << endl;
-					cout << "Минуты: "; cin >>  decrease_minut;
-					cout << "Секунды: "; cin >> decrease_secund;
+					cout << "Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ: " << endl;
+					cout << "РњРёРЅСѓС‚С‹: "; cin >>  decrease_minut;
+					cout << "РЎРµРєСѓРЅРґС‹: "; cin >> decrease_secund;
 				
 					decrease_the_interval(time.min, time.sec, decrease_minut, decrease_secund);
 					break;
 			case 5:
-					cout << "Введите K: "; cin >> k;
-					cout << "Введите последовательно К значений  " << endl;
-					cout << "Введите минуты: " << endl;
+					cout << "Р’РІРµРґРёС‚Рµ K: "; cin >> k;
+					cout << "Р’РІРµРґРёС‚Рµ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ Рљ Р·РЅР°С‡РµРЅРёР№  " << endl;
+					cout << "Р’РІРµРґРёС‚Рµ РјРёРЅСѓС‚С‹: " << endl;
 					add_k_element_min(k, time.min);
-					cout << "Введите секунды: " << endl;
+					cout << "Р’РІРµРґРёС‚Рµ СЃРµРєСѓРЅРґС‹: " << endl;
 					add_k_element_sec(k, time.sec);
 					
 					break;
