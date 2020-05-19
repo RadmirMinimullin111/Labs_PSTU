@@ -57,7 +57,7 @@ int max_element4(priority_queue<int> p_q)
 }
 
 void add_min_element4(priority_queue<int> p_q, int* array_queue4, int n){
-	cout << "Ñ äàííûì âèäîì êîíòåéíåðà íå ðåàëèçóåìî" << endl;
+	cout << "Ð¡ Ð´Ð°Ð½Ð½Ñ‹Ð¼ Ð²Ð¸Ð´Ð¾Ð¼ ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€Ð° Ð½Ðµ Ñ€ÐµÐ°Ð»Ð¸Ð·ÑƒÐµÐ¼Ð¾" << endl;
 }
 
 void delete_max_element4(priority_queue<int> p_q, int n){
@@ -84,7 +84,7 @@ void add_average4(priority_queue<int> p_q, int n){
 		cout << average << " ";
 	}
 	cout << endl << average/n << endl;
-	cout << "\t" << "Î÷åðåäü ïîñëå äîáàâëåíèÿ ñðåäíåàðèôìåòè÷åñêîãî: ";
+	cout << "\t" << "ÐžÑ‡ÐµÑ€ÐµÐ´ÑŒ Ð¿Ð¾ÑÐ»Ðµ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÑÑ€ÐµÐ´Ð½ÐµÐ°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð³Ð¾: ";
 	for(int i = 0; i < n; i++){
 		p_q.push(p_q.top() + (average/n));
 		cout << p_q.top() << " ";
