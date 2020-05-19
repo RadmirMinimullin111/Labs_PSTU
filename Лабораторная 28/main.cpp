@@ -1,3 +1,4 @@
+//–ú–∏–Ω–∏–º—É–ª–ª–∏–Ω –†–∞–¥–º–∏—Ä , –ª–∞–± 28, –ü–æ—Å–ª–µ–¥–æ–≤–∞—Ç–µ–ª—å–Ω—ã–µ –∫–æ–Ω—Ç–µ–π–Ω–µ—Ä—ã –±–∏–±–ª–∏–æ—Ç–µ–∫–∏ STL
 #include <iostream>
 #include <queue>
 #include "1.cpp"
@@ -18,47 +19,47 @@ int main() {
 	two_deque QUEUE;
 	
 	
-	cout << "«‡‰‡˜‡ 1: " << endl;
-	cout << "«‡‰‡ÌËÂ 1: " << endl;
-	cout << "\t" << "›ÎÂÏÂÌÚ˚ Ó˜ÂÂ‰Ë: ";
+	cout << "–ó–∞–¥–∞—á–∞ 1: " << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 1: " << endl;
+	cout << "\t" << "–≠–ª–µ–º–µ–Ω—Ç—ã –æ—á–µ—Ä–µ–¥–∏: ";
 	QUEUE.print_deque(QUEUE.q);
 	cout << endl;
-	cout << "\t" << "ÃËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ Ó˜ÂÂ‰Ë: " << QUEUE.min_element(QUEUE.q) << endl;
-	cout << "\t" << "Õ‡ Í‡ÍÛ˛ ÔÓÁËˆË˛ ‰Ó·‡‚ËÚ¸ ÏËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ?";
+	cout << "\t" << "–ú–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç –æ—á–µ—Ä–µ–¥–∏: " << QUEUE.min_element(QUEUE.q) << endl;
+	cout << "\t" << "–ù–∞ –∫–∞–∫—É—é –ø–æ–∑–∏—Ü–∏—é –¥–æ–±–∞–≤–∏—Ç—å –º–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç?";
 	QUEUE.add_min_element(QUEUE.q, QUEUE.array_deque, QUEUE.n);
 	cout << endl;
-	cout << "«‡‰‡ÌËÂ 2: " << endl;
-	cout << "\t" << "Ã‡ÍÒËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ ‚ Ó˜ÂÂ‰Ë: " << QUEUE.max_element(QUEUE.q) << endl;
-	cout << "\t" << "Œ˜ÂÂ‰¸ ÔÓÒÎÂ Û‰‡ÎÂÌËˇ Ï‡ÍÒËÏ‡Î¸ÌÓ„Ó ˝ÎÂÏÂÌÚ‡: "; 
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 2: " << endl;
+	cout << "\t" << "–ú–∞–∫—Å–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç –≤ –æ—á–µ—Ä–µ–¥–∏: " << QUEUE.max_element(QUEUE.q) << endl;
+	cout << "\t" << "–û—á–µ—Ä–µ–¥—å –ø–æ—Å–ª–µ —É–¥–∞–ª–µ–Ω–∏—è –º–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–≥–æ —ç–ª–µ–º–µ–Ω—Ç–∞: "; 
 	QUEUE.delete_max_element(QUEUE.q, QUEUE.n);
-	cout << "«‡‰‡ÌËÂ 3: " << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 3: " << endl;
 	QUEUE.add_average(QUEUE.q, QUEUE.n);
 	cout << endl;
 	
-	cout << "«‡‰‡˜‡ 2: " << endl;
+	cout << "–ó–∞–¥–∞—á–∞ 2: " << endl;
 	Times<int> TIME;
-	cout << "«‡‰‡ÌËÂ 1: " << endl;
-	cout << "\t" << "›ÎÂÏÂÌÚ˚ Ó˜ÂÂ‰Ë: ";
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 1: " << endl;
+	cout << "\t" << "–≠–ª–µ–º–µ–Ω—Ç—ã –æ—á–µ—Ä–µ–¥–∏: ";
 	TIME.print_deque1(TIME.d);
-	cout << endl << "\t" << "ÃËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << TIME.min_Element(TIME.d) << endl;
-	cout << "\t" << "Ã‡ÍÒËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << TIME.max_Element(TIME.d) << endl;
-	cout << "\t" << "Õ‡ Í‡ÍÛ˛ ÔÓÁËˆË˛ ‰Ó·‡‚ËÚ¸ ÏËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ?";
+	cout << endl << "\t" << "–ú–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << TIME.min_Element(TIME.d) << endl;
+	cout << "\t" << "–ú–∞–∫—Å–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << TIME.max_Element(TIME.d) << endl;
+	cout << "\t" << "–ù–∞ –∫–∞–∫—É—é –ø–æ–∑–∏—Ü–∏—é –¥–æ–±–∞–≤–∏—Ç—å –º–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç?";
 	TIME.add_min_element1(TIME.d, TIME.array_deque1, TIME.n);
 	cout << endl;
-	cout << "\t" << "Œ˜ÂÂ‰¸ ÔÓÒÎÂ Û‰‡ÎÂÌËˇ Ï‡ÍÒËÏ‡Î¸ÌÓ„Ó ˝ÎÂÏÂÌÚ‡: "; 
+	cout << "\t" << "–û—á–µ—Ä–µ–¥—å –ø–æ—Å–ª–µ —É–¥–∞–ª–µ–Ω–∏—è –º–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–≥–æ —ç–ª–µ–º–µ–Ω—Ç–∞: "; 
 	TIME.delete_max_element1(TIME.d, TIME.n);
-	cout << "«‡‰‡ÌËÂ 3: " << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 3: " << endl;
 	TIME.add_average1(TIME.d, TIME.n);
 	cout << endl;
 	
 	
-	cout << "«‡‰‡˜‡ 4: " << endl;
+	cout << "–ó–∞–¥–∞—á–∞ 4: " << endl;
 	priority_queue<int> p_q;
 	int n;
-		cout << " ÓÎË˜ÂÒÚ‚Ó ˝ÎÂÏÂÌÚÓ‚: ";
+		cout << "–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ —ç–ª–µ–º–µ–Ω—Ç–æ–≤: ";
 		cin >> n;
 		int* array_queue4 = new int[n];
-		cout << "¬‚Â‰ËÚÂ ˝ÎÂÏÂÌÚ˚ Ó˜ÂÂ‰Ë: " << endl;
+		cout << "–í–≤–µ–¥–∏—Ç–µ —ç–ª–µ–º–µ–Ω—Ç—ã –æ—á–µ—Ä–µ–¥–∏: " << endl;
 		for(int i = 0; i < n; i++){
 			cout << "->";
 			int p;
@@ -66,36 +67,36 @@ int main() {
 			array_queue4[i] = p;
 			p_q.push(p);
 		}
-	cout << "«‡‰‡ÌËÂ 1: " << endl;
-	cout << "\t" << "›ÎÂÏÂÌÚ˚ Ó˜ÂÂ‰Ë: ";
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 1: " << endl;
+	cout << "\t" << "–≠–ª–µ–º–µ–Ω—Ç—ã –æ—á–µ—Ä–µ–¥–∏: ";
 	print_deque1(p_q);
-	cout << endl << "\t" << "ÃËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << min_element4(p_q) << endl;
-	cout << "\t" << "Ã‡ÍÒËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << max_element4(p_q) << endl;
-	cout << "«‡‰‡ÌËÂ 2: " << endl;
-	cout << "\t" << "Õ‡ Í‡ÍÛ˛ ÔÓÁËˆË˛ ‰Ó·‡‚ËÚ¸ ÏËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ?";
+	cout << endl << "\t" << "–ú–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << min_element4(p_q) << endl;
+	cout << "\t" << "–ú–∞–∫—Å–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << max_element4(p_q) << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 2: " << endl;
+	cout << "\t" << "–ù–∞ –∫–∞–∫—É—é –ø–æ–∑–∏—Ü–∏—é –¥–æ–±–∞–≤–∏—Ç—å –º–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç?";
 	add_min_element4(p_q, array_queue4, n);
 	cout << endl;
-	cout << "\t" << "Œ˜ÂÂ‰¸ ÔÓÒÎÂ Û‰‡ÎÂÌËˇ Ï‡ÍÒËÏ‡Î¸ÌÓ„Ó ˝ÎÂÏÂÌÚ‡: "; 
+	cout << "\t" << "–û—á–µ—Ä–µ–¥—å –ø–æ—Å–ª–µ —É–¥–∞–ª–µ–Ω–∏—è –º–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–≥–æ —ç–ª–µ–º–µ–Ω—Ç–∞: "; 
 	delete_max_element4(p_q, n);
-	cout << "«‡‰‡ÌËÂ 3: " << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 3: " << endl;
 	add_average4(p_q, n);
 	cout << endl;
 	
-	cout << "«‡‰‡˜‡ 5:" << endl;
-	cout << "«‡‰‡ÌËÂ 1: " << endl;
+	cout << "–ó–∞–¥–∞—á–∞ 5:" << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 1: " << endl;
 	vector_stl Vector;
 	
-	cout << "\t" << "›ÎÂÏÂÌÚ˚ Ó˜ÂÂ‰Ë: ";
+	cout << "\t" << "–≠–ª–µ–º–µ–Ω—Ç—ã –æ—á–µ—Ä–µ–¥–∏: ";
 	Vector.print_deque5(Vector.io);
-	cout << endl << "\t" << "ÃËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << Vector.min_element5(Vector.io) << endl;
-	cout << "\t" << "Ã‡ÍÒËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ: " << Vector.max_element5(Vector.io) << endl;
-	cout << "\t" << "Õ‡ Í‡ÍÛ˛ ÔÓÁËˆË˛ ‰Ó·‡‚ËÚ¸ ÏËÌËÏ‡Î¸Ì˚È ˝ÎÂÏÂÌÚ?";
+	cout << endl << "\t" << "–ú–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << Vector.min_element5(Vector.io) << endl;
+	cout << "\t" << "–ú–∞–∫—Å–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç: " << Vector.max_element5(Vector.io) << endl;
+	cout << "\t" << "–ù–∞ –∫–∞–∫—É—é –ø–æ–∑–∏—Ü–∏—é –¥–æ–±–∞–≤–∏—Ç—å –º–∏–Ω–∏–º–∞–ª—å–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç?";
 	Vector.add_min_element5(Vector.io, Vector.array_deque5, Vector.n);
 	cout << endl;
-	cout << "«‡‰‡ÌËÂ 2: " << endl;
-	cout << "\t" << "Œ˜ÂÂ‰¸ ÔÓÒÎÂ Û‰‡ÎÂÌËˇ Ï‡ÍÒËÏ‡Î¸ÌÓ„Ó ˝ÎÂÏÂÌÚ‡: "; 
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 2: " << endl;
+	cout << "\t" << "–û—á–µ—Ä–µ–¥—å –ø–æ—Å–ª–µ —É–¥–∞–ª–µ–Ω–∏—è –º–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–≥–æ —ç–ª–µ–º–µ–Ω—Ç–∞: "; 
 	Vector.delete_max_element5(Vector.io, Vector.n);
-	cout << "«‡‰‡ÌËÂ 3: " << endl;
+	cout << "–ó–∞–¥–∞–Ω–∏–µ 3: " << endl;
 	Vector.add_average5(Vector.io, Vector.n);
 	cout << endl;
 	return 0;
