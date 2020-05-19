@@ -8,11 +8,11 @@ public:
 	double* array_deque;
 	int n;
 	two_deque() {
-		cout << "Êîëè÷åñòâî ýëåìåíòîâ:" << endl;
+		cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²:" << endl;
 		
 		cin >> n;
 		array_deque = new double[n];
-		cout << "Ââåäèòå ýëåìåíòû î÷åðåäè" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸" << endl;
 		for (int i = 0; i < n; i++) {
 			cout << "=";
 			int qu;
@@ -29,4 +29,3 @@ public:
 	void add_min_element(deque<double> q, double* array_deque, int n);
 	void print_deque(deque<double> q);
 };
-
