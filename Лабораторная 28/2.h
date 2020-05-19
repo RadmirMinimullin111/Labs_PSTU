@@ -8,11 +8,11 @@ public:
 	Time n;
 	Time* array_deque1;
 	Times(){
-		cout << "Êîëè÷åñòâî ýëåìåíòîâ: ";
+		cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
 		cin >> n;
 		
 		array_deque1 = new Time[n];
-		cout << "Ââåäèòå ýëåìåíòû î÷åðåäè: " << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸: " << endl;
 		for(int i = 0; i < n; i++){
 			cout << "=";
 			int du;
@@ -31,5 +31,4 @@ public:
 
 	
 };
-
 
