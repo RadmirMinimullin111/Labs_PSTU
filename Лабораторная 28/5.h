@@ -8,11 +8,11 @@ public:
 	int* array_deque5;
 	int n;
 	vector_stl() {
-		cout << "Êîëè÷åñòâî ıëåìåíòîâ:" << endl;
+		cout << "ĞšĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ¾Ğ²:" << endl;
 		
 		cin >> n;
 		array_deque5 = new int[n];
-		cout << "Ââåäèòå ıëåìåíòû î÷åğåäè" << endl;
+		cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ñ‹ Ğ¾Ñ‡ĞµÑ€ĞµĞ´Ğ¸" << endl;
 		for (int i = 0; i < n; i++) {
 			cout << "=";
 			int qu;
