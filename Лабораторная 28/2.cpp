@@ -79,7 +79,7 @@ void Times<Time>::add_min_element1(deque<Time> q, Time* array_deque, Time n){
 			q[i] = array_deque[j];
 		}
 	}
-	cout << "Ðåçóëüòàò: ";
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: ";
 	for(int i = 0; i < n+1; i++){
 		cout << q[i] << ' ';
 	}
@@ -108,7 +108,7 @@ void Times<Time>::add_average1(deque<Time> q, Time n){
 		cout << average << " ";
 	}
 	cout << endl << average/n << endl;
-	cout << "\t" << "Î÷åðåäü ïîñëå äîáàâëåíèÿ ñðåäíåàðèôìåòè÷åñêîãî: ";
+	cout << "\t" << "ÐžÑ‡ÐµÑ€ÐµÐ´ÑŒ Ð¿Ð¾ÑÐ»Ðµ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÑÑ€ÐµÐ´Ð½ÐµÐ°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð³Ð¾: ";
 	for(int i = 0; i < n; i++){
 		q[i] = q[i] + (average/n);
 		cout << q[i] << " ";
