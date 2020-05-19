@@ -56,7 +56,7 @@ void vector_stl::print_deque5(priority_queue<int> io){
 }
 
 void vector_stl::add_min_element5(priority_queue<int> io, int* array_deque5, int n){
-cout << "Ñ äàííûì âèäîì êîíòåéíåðà íåðåàëèçóåìî" << endl;
+cout << "Ð¡ Ð´Ð°Ð½Ð½Ñ‹Ð¼ Ð²Ð¸Ð´Ð¾Ð¼ ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€Ð° Ð½ÐµÑ€ÐµÐ°Ð»Ð¸Ð·ÑƒÐµÐ¼Ð¾" << endl;
 }
 
 void vector_stl::delete_max_element5(priority_queue<int> io, int n){
@@ -83,7 +83,7 @@ void vector_stl::add_average5(priority_queue<int> io, int n){
 		cout << average << " ";
 	}
 	cout << endl << average/n << endl;
-	cout << "\t" << "Î÷åðåäü ïîñëå äîáàâëåíèÿ ñðåäíåàðèôìåòè÷åñêîãî: ";
+	cout << "\t" << "ÐžÑ‡ÐµÑ€ÐµÐ´ÑŒ Ð¿Ð¾ÑÐ»Ðµ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÑÑ€ÐµÐ´Ð½ÐµÐ°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð³Ð¾: ";
 	for(int i = 0; i < n; i++){
 		io.push(io.top() + (average/n));
 		cout << io.top() << " ";
