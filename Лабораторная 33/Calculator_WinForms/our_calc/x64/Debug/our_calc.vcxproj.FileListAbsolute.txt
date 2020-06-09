@@ -1,0 +1,5 @@
+C:\Users\79504\source\repos\-WinForms-C-\our_calc\x64\Debug\our_calc.vcxprojAssemblyReference.cache
+C:\Users\79504\source\repos\-WinForms-C-\our_calc\x64\Debug\ourcalc.MyForm.resources
+C:\Users\79504\source\repos\-WinForms-C-\our_calc\x64\Debug\our_calc.vcxproj.GenerateResource.cache
+C:\Users\79504\source\repos\-WinForms-C-\our_calc\x64\Debug\our_calc.exe
+C:\Users\79504\source\repos\-WinForms-C-\our_calc\x64\Debug\our_calc.pdb

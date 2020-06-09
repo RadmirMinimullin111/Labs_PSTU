@@ -1,0 +1,5 @@
+C:\Users\Баклажан Баклажанов\source\repos\our_calc\Debug\our_calc.vcxprojAssemblyReference.cache
+C:\Users\Баклажан Баклажанов\source\repos\our_calc\Debug\ourcalc.MyForm.resources
+C:\Users\Баклажан Баклажанов\source\repos\our_calc\Debug\our_calc.vcxproj.GenerateResource.cache
+C:\Users\Баклажан Баклажанов\source\repos\our_calc\Debug\our_calc.exe
+C:\Users\Баклажан Баклажанов\source\repos\our_calc\Debug\our_calc.pdb
