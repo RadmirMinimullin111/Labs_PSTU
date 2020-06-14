@@ -1,2 +1,0 @@
-C:\Users\7950\source\repos\Графы\Debug\Graph.exe
-C:\Users\7950\source\repos\Графы\Debug\Graph.pdb
