@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\7950\source\repos\Graph\Header.h(477,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
-C:\Users\7950\source\repos\Graph\Header.h(478,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
-C:\Users\7950\source\repos\Graph\Header.h(4,1): warning C4005: FREEGLUT_LIB_PRAGMAS: изменение макроопределения
-C:\Users\7950\source\repos\Graph\include\freeglut_std.h(51): message : см. предыдущее определение "FREEGLUT_LIB_PRAGMAS"
-C:\Users\7950\source\repos\Graph\main.cpp(5,10): fatal error C1083: Не удается открыть файл включение: GL/freeglut.h: No such file or directory,
