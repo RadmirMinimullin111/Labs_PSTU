@@ -1,0 +1,54 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Graph_v.1.1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\79504\source\repos\Project93\Header.h(318,6): warning C4101: mode: неиспользованная локальная переменная
+C:\Users\79504\source\repos\Project93\Header.h(383,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\79504\source\repos\Project93\Header.h(384,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\79504\source\repos\Project93\Header.h(425,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(285,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(284): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(141): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(295): message : во время компиляции функции-члена класс шаблон "Graph<int>::Graph(void)"
+C:\Users\79504\source\repos\Project93\Header.h(312): message : выполняется компиляция ссылки на экземпляр шаблон функции "Graph<int>::Graph(void)"
+C:\Users\79504\source\repos\Project93\Header.h(312): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<int>"
+C:\Users\79504\source\repos\Project93\Header.h(41,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(40): message : во время компиляции функции-члена класс шаблон "int Graph<int>::Dijkstra(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(184): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::Dijkstra(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(43,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(44,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(53,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(65,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(72,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(81,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(99,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(110,46): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(120,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79504\source\repos\Project93\Header.h(118): message : во время компиляции функции-члена класс шаблон "bool Graph<int>::AllVisited(bool *)"
+C:\Users\79504\source\repos\Project93\Header.h(76): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool Graph<int>::AllVisited(bool *)"
+C:\Users\79504\source\repos\Project93\Header.h(284): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(141): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\79504\source\repos\Project93\Header.h(114): warning C4715: Graph<int>::Dijkstra: значение возвращается не при всех путях выполнения
+  Project93.vcxproj -> C:\Users\79504\source\repos\Project93\Debug\Project93.exe
