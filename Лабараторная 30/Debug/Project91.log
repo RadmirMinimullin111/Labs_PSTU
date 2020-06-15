@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\79504\Desktop\Лабараторная 30\Source.cpp(253,26): warning C4101: new_node: неиспользованная локальная переменная
+C:\Users\79504\Desktop\Лабараторная 30\Source.cpp(389,7): warning C4101: par_x: неиспользованная локальная переменная
+C:\Users\79504\Desktop\Лабараторная 30\Source.cpp(389,14): warning C4101: par_y: неиспользованная локальная переменная
+C:\Users\79504\Desktop\Лабараторная 30\Source.cpp(390,33): warning C4101: new_node: неиспользованная локальная переменная
+C:\Users\79504\Desktop\Лабараторная 30\Source.cpp(457): warning C4715: binary_search_tree::remove: значение возвращается не при всех путях выполнения
+  Project91.vcxproj -> C:\Users\79504\Desktop\Лабараторная 30\Debug\Project91.exe

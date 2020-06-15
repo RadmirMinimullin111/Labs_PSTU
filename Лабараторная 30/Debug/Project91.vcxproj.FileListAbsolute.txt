@@ -1,0 +1,6 @@
+C:\Users\79504\source\repos\Project91\Debug\Project91.exe
+C:\Users\79504\source\repos\Project91\Debug\Project91.pdb
+C:\Users\79504\source\repos\Лабараторная 30\Debug\Project91.exe
+C:\Users\79504\source\repos\Лабараторная 30\Debug\Project91.pdb
+C:\Users\79504\Desktop\Лабараторная 30\Debug\Project91.exe
+C:\Users\79504\Desktop\Лабараторная 30\Debug\Project91.pdb
